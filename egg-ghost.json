@@ -2,7 +2,7 @@
     "meta": {
         "version": "PTDL_v1"
     },
-    "name": "Ghost CMS",
+    "name": "Ghost CMS Production",
     "author": "Razboy20@razboy.dev",
     "description": "Runs a Ghost CMS Web Server through pterodactyl.",
     "image": "deepskywonder/pterodactyl-ghost-production",
