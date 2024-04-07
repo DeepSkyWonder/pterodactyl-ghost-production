@@ -44,7 +44,7 @@ chmod -R u+w /home/container/
 # --no-prompt Install without prompting (disable setup, or pass all required parameters as arguments)
 
 # Here are the ones that I'm adding for production installs
-su -s /bin/ash "nobody" -c "ghost install --no-start --no-enable --no-prompt --dir /home/container/ghost --db MySQL --dbhost $1 --dbuser $2 --dbpass $3 --dbname $4"
+su -s /bin/ash "nobody" -c "ghost install --no-start --no-enable --no-prompt --dir /home/container/ghost --process local --db MySQL --dbhost $1 --dbuser $2 --dbpass $3 --dbname $4"
 unlink /.ghost
 
 
