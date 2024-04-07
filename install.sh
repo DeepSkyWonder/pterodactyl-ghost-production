@@ -2,7 +2,7 @@
 
 cd /mnt/server
 
-apk --no-cache add curl sudo nodejs npm
+apk --no-cache add curl sudo
 apk add --no-cache 'su-exec>=0.2'
 
 npm install ghost-cli@latest -g
